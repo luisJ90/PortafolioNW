@@ -5,7 +5,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     var email = document.getElementById('email').value;
     var message = document.getElementById('message').value;
     
-    // Aquí podrías agregar funcionalidad para enviar el formulario a un servidor
+    // Aquí podrías agregar funcionalidad para enviar el formulario a un servido
     
     document.getElementById('form-response').innerText = 'Gracias por tu mensaje, ' + name + '. Te contactaremos pronto.';
     
